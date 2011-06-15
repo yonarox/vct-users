@@ -5,6 +5,8 @@
  *      Author: yonarox
  */
 
+#include "Groups.h"
+
 #ifndef USERS_H_
 #define USERS_H_
 
@@ -22,7 +24,6 @@ typedef struct  {
 
 class Users {
 public:
-	Users();
 	bool addUser(user*);
 	bool deleteUser(user*);
 	bool renameUser(user*);
